@@ -8,7 +8,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Link to="/calculadora"> Calculadora </Link>
-       
       </header>
     </div>
   );
