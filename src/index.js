@@ -15,7 +15,7 @@ ReactDOM.render(
         <Route path="/" exact={true} component={App} />
         <Route path="/calculadora" component={Calculadora} />
     </Switch>
-  </ BrowserRouter>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

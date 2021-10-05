@@ -2,6 +2,7 @@
   "name": "react-hooks",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://thaicarvalho.github.io/react-hooks/",
   "dependencies": {
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^5.1.0",
@@ -17,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && ./node_modules/.bin/gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
