@@ -10,10 +10,10 @@ import Calculadora from './calculadora/Calculadora';
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
         <Route path="/" exact={true} component={App} />
-        <Route path="/calculadora" component={Calculadora} />
+        <Route path='/calculadora' component={Calculadora} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
